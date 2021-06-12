@@ -8,13 +8,15 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-        </ul>
-    </nav>
-    <div id="contact-us">
+    <header class="main-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="contact-us" align="center">
         <h2><center>CONTACT US</center></h2><br>
         <form id="myForm" class="container form-group">
             <input class='form-control' type="text" placeholder="Name..." id="name" required><br>
@@ -79,6 +81,42 @@ nav a:hover {
     color: black;
     cursor: pointer;
     background-color: white;
+}
+.nav ul {
+  margin: 5px;
+}
+
+.nav li {
+  display: list-item;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .9em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, .6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
 }
 #contact-us{
     margin-top:80px;
