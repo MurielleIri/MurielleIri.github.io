@@ -41,9 +41,7 @@ h1{
   font-family: fantasy;
   padding-top: 40px;
 }
-h1 strong{
-  color: yellow;
-}
+
 .nav ul {
   margin: 5px;
 }
@@ -112,12 +110,14 @@ h1 strong{
   text-align: center;
   font-size: 2.5em;
 }
+
 .btn {
   text-align: center;
   
   padding: .67em .67em;
   cursor: pointer;
 }
+
 .btn-primary {
   color: white;
   background-color: #56CCF2;
